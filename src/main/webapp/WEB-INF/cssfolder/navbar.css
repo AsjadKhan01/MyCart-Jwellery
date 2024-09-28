@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+/* navbar start */
+.Search{
+    width: 650px;
+}
+.navbar{
+   background-color: rgb(192, 178, 192)  ;
+}
+a{
+	text-decoration: none;
+	color: black;
+}

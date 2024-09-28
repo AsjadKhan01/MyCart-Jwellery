@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1{
+    /* background-color: rgb(246, 246, 250); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 40px  30px 350px  330px 1fr 50px 300px 100px;
+    row-gap: 25px;
+    column-gap: 25px;
+    justify-items: center;
+}
+
+.item{
+    /* background-color: rgb(195, 195, 202); */
+    height: 100%; 
+    width: 98%;
+    /* border: 1px solid black; */
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.itemg{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: azure;
+}
+.item3{
+    background-color: rgb(217, 217, 228);
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+
+.item13{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: aliceblue;
+}
+.item14{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 100%;
+    width: 100%;
+}
+
+/* .card{
+    background-color: rgb(242, 242, 247);
+
+    justify-self: center;
+    height: max-content;
+    width: max-content;
+    /* border-radius: 0%; */
+
+/* .card-img-top{
+    border-radius: 0%;
+}
+.card-text{
+    text-align: center;
+    text-decoration-style: dotted;
+}
+img{
+    background-image: none;
+} */ */
+
+
+
+/* navbar start */
+/* .Search{
+    width: 650px;
+}
+.navbar{
+   background-color: rgb(192, 178, 192)  ;
+} */
+/* dream ring */
+.cen{
+    
+        position: absolute;
+        top: 50%;
+        right: 20%;
+        padding-right: 25%;
+        transform: translate(-50%, -50%);
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* end dream */
+.ringimg:hover{
+transform: scale();
+}
+.card {
+    width: 280px;
+    height: 400px;
+
+  }
+  
+  body {
+    
+    background: #eee;
+  }
+
+/* Pagination links */
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+/* footer */
+.container2{
+   
+    background: linear-gradient(to right,  rgb(187, 126, 187)  ,#7d2102);
+    color: rgb(80, 6, 6);
+    font-weight: bolder;
+    height: 400px;
+    width: 100%;
+    padding: 5px;
+}
+
+/* navbar start */
+.Search{
+    width: 650px;
+}
+.navbar{
+   background-color: rgb(192, 178, 192)  ;
+}
+/* home page */
+a{
+    color: black;
+    text-decoration: none;
+ }
